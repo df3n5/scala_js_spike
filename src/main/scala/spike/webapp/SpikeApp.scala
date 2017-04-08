@@ -18,6 +18,14 @@ object JsExportModule {
   }
 }
 
+// For coverage purposes
+object SimpleModule {
+  def containsMe(arg: String) : Boolean = {
+    arg.contains("me")
+  }
+}
+
+
 
 object SpikeApp extends JSApp {
   def main(): Unit = {
