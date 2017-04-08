@@ -16,3 +16,5 @@ jsDependencies += ProvidedJS / "jsexamplemodule.js"
 libraryDependencies += "com.lihaoyi" %%% "utest" % "0.4.5" % "test"
 
 testFrameworks += new TestFramework("utest.runner.Framework")
+
+coverageEnabled := true
