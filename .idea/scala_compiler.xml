@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="incrementalityType" value="SBT" />
+    <profile name="SBT 1" modules="scala_js_spike,root">
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.12.1/jars/scalajs-compiler_2.12.1-0.6.15.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 2" modules="spikeJS">
+      <plugins>
+        <plugin path="$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-compiler_2.10.6/jars/scalajs-compiler_2.10.6-0.6.15.jar" />
+      </plugins>
+    </profile>
+    <profile name="SBT 3" modules="spikeJVM" />
+  </component>
+</project>

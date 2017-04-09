@@ -1,12 +1,9 @@
 package spike.webapp.js
 
-import scala.scalajs.js
-import scala.scalajs.js.JSApp
-import scala.scalajs.js.annotation.{JSExport, JSExportTopLevel, JSImport}
-import scala.util.Random
-import org.scalajs.dom
-import dom.ext.Ajax
+import org.scalajs.dom.ext.Ajax
+
 import scala.concurrent.ExecutionContext.Implicits.global
+import scala.scalajs.js.JSApp
 
 /*
 @js.native

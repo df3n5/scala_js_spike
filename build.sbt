@@ -12,6 +12,8 @@ name := "Scala.js Spike"
 
 //npmDependencies in Compile += "left-pad" -> "1.1.3"
 
+libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
+
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 coverageEnabled := true

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="spikeJVM" external.linked.project.path="$USER_HOME$/e/c/jmf/scala_js_spike/jvm" external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/classes" />
+    <output-test url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/test-classes" />
+    <exclude-output />
+    <content url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm">
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/main/scala" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/main/scala-2.10" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/src_managed/main" isTestSource="false" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/test/scala" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/test/scala-2.10" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/src_managed/test" isTestSource="true" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/resource_managed/main" type="java-resource" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/src/test/resources" type="java-test-resource" />
+      <sourceFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target/scala-2.10/resource_managed/test" type="java-test-resource" />
+      <excludeFolder url="file://$USER_HOME$/e/c/jmf/scala_js_spike/jvm/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="scala_js_spike-sources" exported="" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scalamacros:quasiquotes_2.10:2.1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-sbt:test-interface:1.0:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.10.6:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.10.6:jar" level="project" />
+    <orderEntry type="library" scope="TEST" name="SBT: com.lihaoyi:utest_2.10:0.4.5:jar" level="project" />
+  </component>
+</module>

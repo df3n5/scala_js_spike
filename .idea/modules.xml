@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root.iml" filepath="$PROJECT_DIR$/.idea/modules/root.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/root-build.iml" filepath="$PROJECT_DIR$/.idea/modules/root-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala_js_spike-sources.iml" filepath="$PROJECT_DIR$/.idea/modules/scala_js_spike-sources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spikeJS.iml" filepath="$PROJECT_DIR$/.idea/modules/spikeJS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spikeJS-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spikeJS-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spikeJVM.iml" filepath="$PROJECT_DIR$/.idea/modules/spikeJVM.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/spikeJVM-build.iml" filepath="$PROJECT_DIR$/.idea/modules/spikeJVM-build.iml" />
+    </modules>
+  </component>
+</project>
