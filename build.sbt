@@ -30,7 +30,6 @@ val browser = org.scalajs.jsenv.selenium.Chrome()
 
 val testTask = taskKey[Unit]("test task")
 
-
 lazy val spike = crossProject.in(file(".")).
   settings(
     name := "spike",
