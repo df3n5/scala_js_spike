@@ -2,17 +2,15 @@ enablePlugins(ScalaJSPlugin)
 //enablePlugins(ScalaJSBundlerPlugin)
 
 name := "Scala.js Spike"
-scalaVersion := "2.12.1" // or any other Scala version >= 2.10.2
+// or any other Scala version >= 2.10.2
 
 // This is an application with a main method
-//scalaJSUseMainModuleInitializer := true
 
-scalaJSModuleKind := ModuleKind.CommonJSModule
+//scalaJSModuleKind := ModuleKind.CommonJSModule
 
-jsDependencies += ProvidedJS / "jsexamplemodule.js"
+//jsDependencies += ProvidedJS / "jsexamplemodule.js"
 
 //npmDependencies in Compile += "left-pad" -> "1.1.3"
-
 
 testFrameworks += new TestFramework("utest.runner.Framework")
 
@@ -24,7 +22,8 @@ lazy val root = project.in(file(".")).
   aggregate(spikeJS, spikeJVM).
   settings(
     publish := {},
-    publishLocal := {}
+    publishLocal := {},
+    scalaVersion := "2.12.1"
   )
 
 lazy val spike = crossProject.in(file(".")).
@@ -38,7 +37,9 @@ lazy val spike = crossProject.in(file(".")).
     // Add JVM-specific settings here
   ).
   jsSettings(
-    // Add JS-specific settings here
+    scalaJSModuleKind := ModuleKind.CommonJSModule,
+    scalaJSUseMainModuleInitializer := true,
+    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
   )
 
 lazy val spikeJVM = spike.jvm
