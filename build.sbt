@@ -1,5 +1,5 @@
 enablePlugins(ScalaJSPlugin)
-//enablePlugins(ScalaJSBundlerPlugin)
+enablePlugins(ScalaJSBundlerPlugin)
 
 name := "Scala.js Spike"
 // or any other Scala version >= 2.10.2
@@ -10,12 +10,12 @@ name := "Scala.js Spike"
 
 //jsDependencies += ProvidedJS / "jsexamplemodule.js"
 
-//npmDependencies in Compile += "left-pad" -> "1.1.3"
 
 testFrameworks += new TestFramework("utest.runner.Framework")
 
 coverageEnabled := true
 
+npmDependencies in Compile += "left-pad" -> "1.1.3"
 
 // Jvm AND JS support here
 lazy val root = project.in(file(".")).
@@ -39,13 +39,13 @@ lazy val spike = crossProject.in(file(".")).
     // Add JVM-specific settings here
   ).
   jsSettings(
-    //scalaJSModuleKind := ModuleKind.CommonJSModule,
+    scalaJSModuleKind := ModuleKind.CommonJSModule,
     scalaJSUseMainModuleInitializer := true,
-    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1",
+    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
     // Apply to the 'run' command
-    jsEnv := new org.scalajs.jsenv.selenium.SeleniumJSEnv(browser) ,
+    //jsEnv := new org.scalajs.jsenv.selenium.SeleniumJSEnv(browser),
     // Apply to tests
-    jsEnv in Test := new org.scalajs.jsenv.selenium.SeleniumJSEnv(browser)
+    //jsEnv in Test := new org.scalajs.jsenv.selenium.SeleniumJSEnv(browser)
   )
 
 lazy val spikeJVM = spike.jvm

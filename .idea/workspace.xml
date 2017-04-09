@@ -49,11 +49,21 @@
       <file leaf-file-name="SpikeApp.scala" pinned="false" current-in-tab="true">
         <entry file="file://$USER_HOME$/e/c/jmf/scala_js_spike/js/src/main/scala/SpikeApp.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            <state relative-caret-position="120">
+              <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
               <folding>
                 <element signature="e#25#56#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSImport.scala" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-library_2.10/srcs/scalajs-library_2.10-0.6.15-sources.jar!/scala/scalajs/js/annotation/JSImport.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="472">
+              <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -71,8 +81,8 @@
       <file leaf-file-name="build.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+            <state relative-caret-position="323">
+              <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
               <folding />
             </state>
           </provider>
@@ -81,8 +91,8 @@
       <file leaf-file-name="plugins.sbt" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/e/c/jmf/scala_js_spike/project/plugins.sbt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+            <state relative-caret-position="0">
+              <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
               <folding />
             </state>
           </provider>
@@ -111,9 +121,9 @@
         <option value="$USER_HOME$/e/c/jmf/scala_js_spike/js/src/main/test/scala/JsTests.scala" />
         <option value="$USER_HOME$/e/c/jmf/scala_js_spike/shared/src/test/scala/SharedTests.scala" />
         <option value="$PROJECT_DIR$/index-dev.html" />
-        <option value="$USER_HOME$/e/c/jmf/scala_js_spike/js/src/main/scala/SpikeApp.scala" />
         <option value="$USER_HOME$/e/c/jmf/scala_js_spike/project/plugins.sbt" />
         <option value="$PROJECT_DIR$/build.sbt" />
+        <option value="$USER_HOME$/e/c/jmf/scala_js_spike/js/src/main/scala/SpikeApp.scala" />
       </list>
     </option>
   </component>
@@ -664,7 +674,7 @@
     </configuration>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1491766387919" />
+    <option name="lastUpdateTimestamp" value="1491768155592" />
     <option name="availableProjects">
       <map>
         <entry>
@@ -802,9 +812,9 @@
         <state relative-caret-position="580">
           <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
           <folding>
-            <marker date="1491767448000" expanded="true" signature="952:955" ph="(...)" />
-            <marker date="1491767448000" expanded="true" signature="970:1013" ph="(...)" />
-            <marker date="1491767448000" expanded="true" signature="1027:1101" ph="(...)" />
+            <marker date="1491768559000" expanded="true" signature="952:955" ph="(...)" />
+            <marker date="1491768559000" expanded="true" signature="970:1013" ph="(...)" />
+            <marker date="1491768559000" expanded="true" signature="1027:1101" ph="(...)" />
           </folding>
         </state>
       </provider>
@@ -899,24 +909,32 @@
     </entry>
     <entry file="file://$USER_HOME$/e/c/jmf/scala_js_spike/project/plugins.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="73" lean-forward="false" selection-start-line="4" selection-start-column="73" selection-end-line="4" selection-end-column="73" />
+        <state relative-caret-position="0">
+          <caret line="0" column="53" lean-forward="false" selection-start-line="0" selection-start-column="53" selection-end-line="0" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.scala-js/scalajs-library_2.10/srcs/scalajs-library_2.10-0.6.15-sources.jar!/scala/scalajs/js/annotation/JSImport.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="58" column="13" lean-forward="false" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="41" column="6" lean-forward="false" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="6" />
+        <state relative-caret-position="323">
+          <caret line="43" column="69" lean-forward="false" selection-start-line="43" selection-start-column="69" selection-end-line="43" selection-end-column="69" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/e/c/jmf/scala_js_spike/js/src/main/scala/SpikeApp.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="40" column="7" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        <state relative-caret-position="120">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
           <folding>
             <element signature="e#25#56#0" expanded="true" />
           </folding>
