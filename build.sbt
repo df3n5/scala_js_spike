@@ -28,6 +28,9 @@ lazy val root = project.in(file(".")).
 
 val browser = org.scalajs.jsenv.selenium.Chrome()
 
+val testTask = taskKey[Unit]("test task")
+
+
 lazy val spike = crossProject.in(file(".")).
   settings(
     name := "spike",
@@ -41,7 +44,10 @@ lazy val spike = crossProject.in(file(".")).
   jsSettings(
     scalaJSModuleKind := ModuleKind.CommonJSModule,
     scalaJSUseMainModuleInitializer := true,
-    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1"
+    libraryDependencies += "org.scala-js" %%% "scalajs-dom" % "0.9.1",
+    testTask := {
+      println("HOOOOOOO")
+    }
     // Apply to the 'run' command
     //jsEnv := new org.scalajs.jsenv.selenium.SeleniumJSEnv(browser),
     // Apply to tests
